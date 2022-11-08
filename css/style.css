@@ -13,3 +13,9 @@
 .ban-img img {
 	display: flex;
 }
+.discuss {
+	background: #e3f1f766;
+}
+.text-info {
+	color: #2707d7 !important;
+}
