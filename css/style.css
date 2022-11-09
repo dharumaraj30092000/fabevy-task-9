@@ -19,3 +19,33 @@
 .text-info {
 	color: #2707d7 !important;
 }
+.card {
+	height: 100%;
+	min-width: 100%;
+	box-shadow: 0px 0px 8px -1px #ccc;
+	border: none !important;
+	overflow: hidden;
+}
+.card img {
+	transform: scale(1);
+	transition: all 0.6s ease;
+}
+.card:hover img {
+	transform: scale(0.95);
+	transition: all 0.6s ease;
+}
+.card:hover {
+	box-shadow: 0px 0px 17px -1px #ccc;
+}
+.bg-white {
+	box-shadow: 0px 0px 15px -1px #ccc;
+}
+.fs-5 {
+	font-size: 40px !important;
+}
+.top-0 {
+	top: 14% !important;
+}
+.start-0 {
+	left: 75% !important;
+}
