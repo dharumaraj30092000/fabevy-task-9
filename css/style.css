@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Cabin:wght@600&family=Raleway:wght@500&display=swap');
+/*---------- header ----------*/
 .back-img {
 	background-image: url(../image/hero-bg.png);
 	background-repeat: no-repeat;
@@ -6,6 +7,70 @@
 	background-attachment: scroll;
 	background-size: cover;
 }
+.header:hover {
+	background: white !important;
+}
+.navbar-brand {
+	font-size: 31px !important;
+}
+.active {
+	color: #2707d7 !important;
+	text-decoration: none;
+}
+.nav-link {
+	color: #494993 !important;
+	font-size: 17px;
+}
+.nav-link:hover {
+	color: #2707d7 !important;
+}
+.arrow {
+	font-size: 18px;
+}
+.dropdown-item-1 {
+	position: relative;
+}
+.dropdown-item-2 {
+	position: absolute;
+	top: 80%;
+	left: 0%;
+	min-width: 170px;
+	height: 210px;
+	font-size: 20px;
+	background: white;
+	opacity: 0;
+	visibility: hidden;
+	box-shadow: 0px 0px 17px -1px #ccc;
+	transform: translateY(20);
+	transition: all 0.4s ease;
+}
+.dropdown-item-1:hover .dropdown-item-2 {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(20);
+	transition: all 0.4s ease;
+}
+.dropdown-item-3 {
+	position: absolute;
+	top: 30%;
+	left: -83%;
+	min-width: 170px;
+	height: 160px;
+	font-size: 20px;
+	background: white;
+	opacity: 0;
+	visibility: hidden;
+	box-shadow: 0px 0px 17px -1px #ccc;
+	transform: translateY(20);
+	transition: all 0.4s ease;
+}
+.deep:hover .dropdown-item-3 {
+	opacity: 1;
+	visibility: visible;
+	transform: translateX(-20%);
+	transition: all 0.4s ease;
+}
+/*--------- banner ----------*/
 .text-primary {
 	color: #494993 !important;
 	font-weight: 700;
@@ -19,6 +84,24 @@
 .text-info {
 	color: #2707d7 !important;
 }
+.top-0 {
+	top: 13% !important;
+}
+.start-0 {
+	left: 70% !important;
+}
+.b-1 {
+	background: blue;
+}
+.b-1:hover {
+	background: blue !important;
+}
+.button:hover a span i {
+	transform: translateX(10);
+	transition: all 0.4s ease;
+	padding-left: 7px;
+}
+/*--------- card ----------*/
 .card {
 	height: 100%;
 	min-width: 100%;
@@ -37,15 +120,27 @@
 .card:hover {
 	box-shadow: 0px 0px 17px -1px #ccc;
 }
+/*--------- client ---------*/
 .bg-white {
 	box-shadow: 0px 0px 15px -1px #ccc;
 }
-.fs-5 {
+.c-img {
 	font-size: 40px !important;
 }
-.top-0 {
-	top: 14% !important;
+/*--------- feature ---------*/
+.rounded {
+	box-shadow: 0px 0px 8px -2px #ccc !important;
 }
-.start-0 {
-	left: 75% !important;
+.color {
+	background: #aff3af8a;
+	width: 15%;
+	height: 7%;
+}
+.fut-list:hover .btn {
+	border: none;
+	background: blue;
+	color: white;
+}
+.fut-list {
+	color: #494993;
 }
