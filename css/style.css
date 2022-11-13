@@ -164,3 +164,133 @@
 	left: 0%;
 	background: blue;
 }
+.check {
+	color: #0245bc;
+}
+/*--------- services ---------*/
+.ser-cnt-1 {
+	border-bottom: 3px solid #2db6fa;
+}
+.ser-list-1 a i {
+	background: #d8f2fd7a;
+	border-radius: 5px;
+	color: #2db6fa;
+}
+.ser-arrow-1 a {
+	color: #2db6fa !important;
+}
+.ser-cnt-1:hover {
+	background: #2db6fa !important;
+	color: white;
+}
+.ser-cnt-1:hover .ser-list-1 a i{
+	background: white;
+}
+.ser-cnt-1:hover .ser-arrow-1 a {
+	color: white !important;
+}
+.ser-cnt-2 {
+	border-bottom: 3px solid #08da4e;
+}
+.ser-list-2 a i {
+	background: #b2f5b275;
+	border-radius: 5px;
+	color: #08da4e;
+}
+.ser-arrow-2 a {
+	color: #08da4e !important;
+}
+.ser-cnt-2:hover {
+	background: #08da4e !important;
+	color: white;
+}
+.ser-cnt-2:hover .ser-list-2 a i{
+	background: white;
+}
+.ser-cnt-2:hover .ser-arrow-2 a {
+	color: white !important;
+}
+.ser-cnt-3 {
+	border-bottom: 3px solid #f68c09;
+}
+.ser-list-3 a i {
+	background: #fddc916b;
+	border-radius: 5px;
+	color: #f68c09;
+}
+.ser-arrow-3 a {
+	color: #f68c09 !important;
+}
+.ser-cnt-3:hover {
+	background: #f68c09 !important;
+	color: white;
+}
+.ser-cnt-3:hover .ser-list-3 a i{
+	background: white;
+}
+.ser-cnt-3:hover .ser-arrow-3 a {
+	color: white !important;
+}
+.ser-cnt-4 {
+	border-bottom: 3px solid #e9222c;
+}
+.ser-list-4 a i {
+	background: #f1959973;
+	border-radius: 5px;
+	color: #e9222c;
+}
+.ser-arrow-4 a {
+	color: #e9222c !important;
+}
+.ser-cnt-4:hover {
+	background: #e9222c !important;
+	color: white;
+}
+.ser-cnt-4:hover .ser-list-4 a i{
+	background: white;
+}
+.ser-cnt-4:hover .ser-arrow-4 a {
+	color: white !important;
+}
+.ser-cnt-5 {
+	border-bottom: 3px solid #b50edf;
+}
+.ser-list-5 a i {
+	background: #e6a5f763;
+	border-radius: 5px;
+	color: #b50edf;
+}
+.ser-arrow-5 a {
+	color: #b50edf !important;
+}
+.ser-cnt-5:hover {
+	background: #b50edf !important;
+	color: white;
+}
+.ser-cnt-5:hover .ser-list-5 a i{
+	background: white;
+}
+.ser-cnt-5:hover .ser-arrow-5 a {
+	color: white !important;
+}
+.ser-cnt-6 {
+	border-bottom: 3px solid #f51f9c;
+}
+.ser-list-6 a i {
+	background: #f196cb6b;
+	border-radius: 5px;
+	color: #f51f9c;
+}
+.ser-arrow-6 a {
+	color: #f51f9c !important;
+}
+.ser-cnt-6:hover {
+	background: #f51f9c !important;
+	color: white;
+}
+.ser-cnt-6:hover .ser-list-6 a i{
+	background: white;
+}
+.ser-cnt-6:hover .ser-arrow-6 a {
+	color: white !important;
+}
