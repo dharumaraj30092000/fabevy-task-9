@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Cabin:wght@600&family=Raleway:wght@500&display=swap');
 /*---------- header ----------*/
-.header:hover {
-	background: white !important;
+.header {
+	z-index: 1;
 }
 .navbar-brand {
 	font-size: 31px !important;
@@ -64,16 +64,15 @@
 	transition: all 0.4s ease;
 }
 /*--------- banner ----------*/
-.back-img {
+.banner {
 	background-image: url(../image/hero-bg.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: scroll;
 	background-size: cover;
 	height: 100vh;
-}
-.pad {
-	padding-top: 100px;
+	display: flex;
+	align-items: center;
 }
 .text-primary {
 	color: #494993 !important;
@@ -100,10 +99,12 @@
 .b-1:hover {
 	background: blue !important;
 }
-.button:hover a span i {
-	transform: translateX(10);
-	transition: all 0.4s ease;
-	padding-left: 7px;
+.button {
+	transition: all 0.8s ease;
+}
+.button:hover button span i {
+	transition: all 0.8s ease;
+	padding-left: 4px;
 }
 /*--------- card ----------*/
 .card {
@@ -113,6 +114,7 @@
 	border: none !important;
 	overflow: hidden;
 	border-radius: 2px !important;
+	z-index: -1;
 }
 .card img {
 	transform: scale(0.8);
@@ -294,4 +296,40 @@
 }
 .ser-cnt-6:hover .ser-arrow-6 a {
 	color: white !important;
+}
+/*-------- pricing --------*/
+.price-list-1 h5 {
+	color: #07d5c0;
+}
+.price-list-2 h5 {
+	color: #f68c09;
+}
+.price-list-3 h5 {
+	color: #08da4e;
+}
+.price-list-4 h5 {
+	color: #f51f9c;
+}
+.cross.position-absolute {
+	right: -17%;
+	top: 3%;
+	transform: rotate(50deg);
+}
+.rounded-pill {
+	border-color: #4154f1 !important;
+	background: none;
+	color: #4154f1;
+}
+.text-black-50 {
+	color: #ccc !important;
+}
+.equal-height {
+	height: 100%;
+}
+.feat-btn button:hover {
+	background: #4154f1;
+	color: white;
+}
+.index {
+	z-index: -1;
 }
