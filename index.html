@@ -3,44 +3,48 @@
  <head>
   <title>bootsrtap</title>
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="icofont/icofont.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
  </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
 <!---------- header start ------------->
   <section class="header">
 	   <div class="container">
-			 <div class="row align-items-center position-fixed">
+			 <div class="row align-items-center position-fixed index">
 				 <div class="col-2">
 					   <nav class="navbar navbar-expand-lg">
 							<img class="img-fluid" src="image/logo.png" alt="logo-name">
 							 <div class="container-fluid">
-								<a class="navbar-brand text-capitalize pt-3" href="#">flex<span class="text-capitalize">Start</span></a>
+								<a class="navbar-brand text-capitalize text-primary pt-3" href="#">flex<span class="text-capitalize">Start</span></a>
 							 </div>
 					   </nav>
 				 </div>
 				 <div class="col-8">
-					  <nav class="navbar navbar-expand-lg">
+					  <nav class="navbar navbar-expand-lg ms-5">
 							<div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
 								  <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
-										<li class="nav-item nav-link ms-4">
-										  <a class="active text-capitalize" href="index.html" aria-current="page" href="#">home</a>
+										<li class="nav-item nav-link ms-2">
+										  <a class="active text-capitalize text-decoration-none" href="index.html" aria-current="page" href="#">home</a>
 										</li>
-										<li class="nav-item ms-3">
-										  <a class="nav-link text-capitalize" href="#">about</a>
+										<li class="nav-item ms-2">
+										  <a class="nav-link text-capitalize" href="#scrollspyHeading1">about</a>
 										</li>
-										<li class="nav-item ms-3">
-										  <a class="nav-link text-capitalize" href="#">services</a>
+										<li class="nav-item ms-2">
+										  <a class="nav-link text-capitalize" href="#scrollspyHeading2">services</a>
 										</li>
-										<li class="nav-item ms-3">
-										  <a class="nav-link text-capitalize" href="#">portfolio</a>
+										<li class="nav-item ms-2">
+										  <a class="nav-link text-capitalize" href="#scrollspyHeading3">portfolio</a>
 										</li>
-										<li class="nav-item ms-3">
+										<li class="nav-item ms-2">
+										  <a class="nav-link text-capitalize" href="#scrollspyHeading4">team</a>
+										</li>
+										<li class="nav-item ms-2">
 										  <a class="nav-link text-capitalize" href="#">blog</a>
 										</li>
-										<li class="nav-item ms-3 dropdown-item-1">
+										<li class="nav-item ms-2 dropdown-item-1">
 										  <a class="nav-link text-capitalize" href="#">dropdown<span class="arrow ps-2 pt-5"><i class="icofont-curved-down"></i></span></a>
 										  <ul class="dropdown-item-2 ps-0 rounded-2">
 											   <li class="d-block"><a class="nav-link text-capitalize">dropdown<span class="ps-2">1</span></a>
@@ -58,7 +62,7 @@
 											   </li>
 										  </ul>
 										</li>
-										<li class="nav-item ms-3">
+										<li class="nav-item ms-2">
 										  <a class="nav-link text-capitalize">contact</a>
 										</li>
 								  </ul>
@@ -95,7 +99,7 @@
    </section>
 <!---------- banner end ------------->
 <!---------- group start------------->
- <section class="grp-dis mb-5">
+ <section class="grp-dis mb-5 ps-4" id="scrollspyHeading1">
 	  <div class="container">
 			<div class="row align-items-center">
 				  <div class="col-6 discuss pt-1">
@@ -259,29 +263,29 @@
 					  <div class="row">
 						   <div class="col-6">
 								<div class="c-cont">
-								 <p class="h2 text-primary pb-3"><span class="text-capitalize">Neque&nbsp </span>officiis dolore maiores et exercitationem quae est seda lidera pat claero</p>
-								 <p class="coll-border">
-									  <a class="justify-content-between text-decoration-none text-uppercase fs-6" href="#" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
-										<span class="coll-list active">saepe fuga</span>
-									  </a>
-									  <a class="justify-content-between ps-4 text-decoration-none text-uppercase fs-6" href="#" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
-										<span class="coll-list">voluptates</span>
-									  </a>
-									  <a class="justify-content-between ps-4 text-decoration-none text-uppercase fs-6" href="#" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
-										<span class="coll-list">corrupti</span>
-									  </a>
-								 </p>
-								<div style="min-height: 200px;">
-									  <div class="collapse collapse-horizontal show" id="collapseWidthExample">
-											<div class="coll-cont" style="width: 100%;">
-												  <p class="text-muted"><span class="text-capitalize">Consequuntur&nbsp </span>inventore voluptates consequatur aut vel et. Eos doloribus expedita.<span class="text-capitalize">Sapiente&nbsp </span>atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
-												  <p class="text-primary fs-5 mb-0"><span class="fs-3 check d-inline-block"><i class="icofont-check-alt"></i></span><span class="text-capitalize ps-2">Repudiandae&nbsp </span>rerum velit modi et officia quasi facilis</p>
-												  <p class="text-muted"><span class="text-capitalize">Laborum&nbsp </span>omnis voluptates voluptas qui sit aliquam blanditiis.<span class="text-capitalize">Sapiente&nbsp </span>minima commodi dolorum non eveniet magni quaerat nemo et.</p>
-												  <p class="text-primary fs-5 mb-0"><span class="fs-3 check d-inline-block"><i class="icofont-check-alt"></i></span><span class="text-capitalize ps-2">Incidunte&nbsp </span>non veritatis illum ea ut nisi</p>
-												  <p class="text-muted"><span class="text-capitalize">Non&nbsp </span>quod totam minus repellendus autem sint velit.<span class="text-capitalize">Rerum&nbsp </span>debitis facere soluta tenetur.<span class="text-capitalize">Iure&nbsp </span>molestiae assumenda sunt qui inventore eligendi voluptates nisi at.<span class="text-capitalize">Dolorem&nbsp </span>quo tempora.<span class="text-capitalize">Quia&nbsp </span>et perferendis.</p>
-											</div>
-									  </div>
-								</div>
+									 <p class="h2 text-primary pb-3"><span class="text-capitalize">Neque&nbsp </span>officiis dolore maiores et exercitationem quae est seda lidera pat claero</p>
+									 <p class="coll-border">
+										  <a class="justify-content-between text-decoration-none text-uppercase fs-6" href="#" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+											<span class="coll-list active">saepe fuga</span>
+										  </a>
+										  <a class="justify-content-between ps-4 text-decoration-none text-uppercase fs-6" href="#" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+											<span class="coll-list">voluptates</span>
+										  </a>
+										  <a class="justify-content-between ps-4 text-decoration-none text-uppercase fs-6" href="#" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+											<span class="coll-list">corrupti</span>
+										  </a>
+									 </p>
+									<div style="min-height: 200px;">
+										  <div class="collapse collapse-horizontal show" id="collapseWidthExample">
+												<div class="coll-cont" style="width: 100%;">
+													  <p class="text-muted"><span class="text-capitalize">Consequuntur&nbsp </span>inventore voluptates consequatur aut vel et. Eos doloribus expedita.<span class="text-capitalize">Sapiente&nbsp </span>atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
+													  <p class="text-primary fs-5 mb-0"><span class="fs-3 check d-inline-block"><i class="icofont-check-alt"></i></span><span class="text-capitalize ps-2">Repudiandae&nbsp </span>rerum velit modi et officia quasi facilis</p>
+													  <p class="text-muted"><span class="text-capitalize">Laborum&nbsp </span>omnis voluptates voluptas qui sit aliquam blanditiis.<span class="text-capitalize">Sapiente&nbsp </span>minima commodi dolorum non eveniet magni quaerat nemo et.</p>
+													  <p class="text-primary fs-5 mb-0"><span class="fs-3 check d-inline-block"><i class="icofont-check-alt"></i></span><span class="text-capitalize ps-2">Incidunte&nbsp </span>non veritatis illum ea ut nisi</p>
+													  <p class="text-muted"><span class="text-capitalize">Non&nbsp </span>quod totam minus repellendus autem sint velit.<span class="text-capitalize">Rerum&nbsp </span>debitis facere soluta tenetur.<span class="text-capitalize">Iure&nbsp </span>molestiae assumenda sunt qui inventore eligendi voluptates nisi at.<span class="text-capitalize">Dolorem&nbsp </span>quo tempora.<span class="text-capitalize">Quia&nbsp </span>et perferendis.</p>
+												</div>
+										  </div>
+									</div>
 								</div>
 						   </div>
 						   <div class="col-6">
@@ -368,7 +372,7 @@
  </section>
 <!---------- futures end ------------->
 <!---------- services start ------------->
- <section class="services mb-5">
+ <section class="services mb-5" id="scrollspyHeading2">
 	  <div class="container">
 			<div class="v-info text-center">
 			  <p class="h6 text-uppercase text-info">services</p>
@@ -466,11 +470,11 @@
 					   <div class="p-img p-4">
 						 <img class="img-fluid pb-4" src="image/pricing-free.png" alt="scooty">
 					   </div>
-					   <h5 class="text-muted pb-2"><span class="text-capitalize">Aida&nbsp</span>dere</h5>
-					   <h5 class="text-muted pb-2"><span class="text-capitalize">Nec&nbsp</span>feugiat nisl</h5>
-					   <h5 class="text-muted pb-2"><span class="text-capitalize">Nulla&nbsp</span>at volutpat dola</h5>
-					   <h5 class="text-black-50 text-decoration-line-through pb-2"><span class="text-capitalize">Pharetra&nbsp</span>massa</h5>
-					   <h5 class="text-black-50 text-decoration-line-through pb-2"><span class="text-capitalize">Massa&nbsp</span>ultricies mi</h5>
+					   <p class="text-muted pb-2"><span class="text-capitalize">Aida&nbsp</span>dere</p>
+					   <p class="text-muted pb-2"><span class="text-capitalize">Nec&nbsp</span>feugiat nisl</p>
+					   <p class="text-muted pb-2"><span class="text-capitalize">Nulla&nbsp</span>at volutpat dola</p>
+					   <p class="text-black-50 text-decoration-line-through pb-2"><span class="text-capitalize">Pharetra&nbsp</span>massa</p>
+					   <p class="text-black-50 text-decoration-line-through pb-2"><span class="text-capitalize">Massa&nbsp</span>ultricies mi</p>
 					   <div class="feat-btn text-center mt-3 mb-3">
 						 <button class="text-capitalize ps-4 pe-4 pt-1 pb-1 rounded-pill fs-5">buy now</button>
 					   </div>
@@ -486,11 +490,11 @@
 				   <div class="p-img p-4">
 					 <img class="img-fluid pb-4" src="image/pricing-starter.png" alt="scooty">
 				   </div>
-				   <h5 class="text-muted pb-2"><span class="text-capitalize">Aida&nbsp</span>dere</h5>
-				   <h5 class="text-muted pb-2"><span class="text-capitalize">Nec&nbsp</span>feugiat nisl</h5>
-				   <h5 class="text-muted pb-2"><span class="text-capitalize">Nulla&nbsp</span>at volutpat dola</h5>
-				   <h5 class="text-muted pb-2"><span class="text-capitalize">Pharetra&nbsp</span>massa</h5>
-				   <h5 class="text-black-50 text-decoration-line-through pb-2"><span class="text-capitalize">Massa&nbsp</span>ultricies mi</h5>
+				   <p class="text-muted pb-2"><span class="text-capitalize">Aida&nbsp</span>dere</p>
+				   <p class="text-muted pb-2"><span class="text-capitalize">Nec&nbsp</span>feugiat nisl</p>
+				   <p class="text-muted pb-2"><span class="text-capitalize">Nulla&nbsp</span>at volutpat dola</p>
+				   <p class="text-muted pb-2"><span class="text-capitalize">Pharetra&nbsp</span>massa</p>
+				   <p class="text-black-50 text-decoration-line-through pb-2"><span class="text-capitalize">Massa&nbsp</span>ultricies mi</p>
 				   <div class="feat-btn text-center mt-3 mb-3">
 					 <button class="text-capitalize ps-4 pe-4 pt-1 pb-1 rounded-pill fs-5">buy now</button>
 				   </div>
@@ -503,11 +507,11 @@
 				   <div class="p-img p-4">
 					 <img class="img-fluid pb-4" src="image/pricing-business.png" alt="scooty">
 				   </div>
-				   <h5 class="text-muted pb-2"><span class="text-capitalize">Aida&nbsp</span>dere</h5>
-				   <h5 class="text-muted pb-2"><span class="text-capitalize">Nec&nbsp</span>feugiat nisl</h5>
-				   <h5 class="text-muted pb-2"><span class="text-capitalize">Nulla&nbsp</span>at volutpat dola</h5>
-				   <h5 class="text-muted pb-2"><span class="text-capitalize">Pharetra&nbsp</span>massa</h5>
-				   <h5 class="text-muted pb-2"><span class="text-capitalize">Massa&nbsp</span>ultricies mi</h5>
+				   <p class="text-muted pb-2"><span class="text-capitalize">Aida&nbsp</span>dere</p>
+				   <p class="text-muted pb-2"><span class="text-capitalize">Nec&nbsp</span>feugiat nisl</p>
+				   <p class="text-muted pb-2"><span class="text-capitalize">Nulla&nbsp</span>at volutpat dola</p>
+				   <p class="text-muted pb-2"><span class="text-capitalize">Pharetra&nbsp</span>massa</p>
+				   <p class="text-muted pb-2"><span class="text-capitalize">Massa&nbsp</span>ultricies mi</p>
 				   <div class="feat-btn text-center mt-3 mb-3">
 					 <button class="text-capitalize ps-4 pe-4 pt-1 pb-1 rounded-pill fs-5">buy now</button>
 				   </div>
@@ -520,11 +524,11 @@
 				   <div class="p-img p-4">
 					 <img class="img-fluid pb-4" src="image/pricing-ultimate.png" alt="scooty">
 				   </div>
-				   <h5 class="text-muted pb-2"><span class="text-capitalize">Aida&nbsp</span>dere</h5>
-				   <h5 class="text-muted pb-2"><span class="text-capitalize">Nec&nbsp</span>feugiat nisl</h5>
-				   <h5 class="text-muted pb-2"><span class="text-capitalize">Nulla&nbsp</span>at volutpat dola</h5>
-				   <h5 class="text-muted pb-2"><span class="text-capitalize">Pharetra&nbsp</span>massa</h5>
-				   <h5 class="text-muted pb-2"><span class="text-capitalize">Massa&nbsp</span>ultricies mi</h5>
+				   <p class="text-muted pb-2"><span class="text-capitalize">Aida&nbsp</span>dere</p>
+				   <p class="text-muted pb-2"><span class="text-capitalize">Nec&nbsp</span>feugiat nisl</p>
+				   <p class="text-muted pb-2"><span class="text-capitalize">Nulla&nbsp</span>at volutpat dola</p>
+				   <p class="text-muted pb-2"><span class="text-capitalize">Pharetra&nbsp</span>massa</p>
+				   <p class="text-muted pb-2"><span class="text-capitalize">Massa&nbsp</span>ultricies mi</p>
 				   <div class="feat-btn text-center mt-3 mb-3">
 					 <button class="text-capitalize ps-4 pe-4 pt-1 pb-1 rounded-pill fs-5">buy now</button>
 				   </div>
@@ -558,7 +562,7 @@
 					  </div>
 					  <div class="accordion-item align-items-center">
 							<h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-							  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+							  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
 								<p><span class="text-capitalize">Feugiat&nbsp</span>scelerisque varius morbi enim nunc faucibus a<br>pellentesque?</p>
 							  </button>
 							</h2>
@@ -570,7 +574,7 @@
 					  </div>
 					  <div class="accordion-item-1 align-items-center">
 							<h2 class="accordion-header" id="panelsStayOpen-headingThree">
-							  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+							  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">
 								<p><span class="text-capitalize">Dolor&nbsp</span>sit amet consectetur adipiscing elit pellentesque habitant morbi?</p>
 							  </button>
 							</h2>
@@ -598,7 +602,7 @@
 						  </div>
 						  <div class="accordion-item align-items-center">
 								<h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-								  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefive" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+								  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefive" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
 									<p><span class="text-capitalize">Tempus&</span> quam pellentesque nec nam aliquam sem et tortor consequat?</p>
 								  </button>
 								</h2>
@@ -610,7 +614,7 @@
 						  </div>
 						  <div class="accordion-item-1 align-items-center">
 								<h2 class="accordion-header" id="panelsStayOpen-headingThree">
-								  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsesix" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+								  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsesix" aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">
 									<p><span class="text-capitalize">Varius&nbsp</span>vel pharetra vel turpis nunc eget lorem dolor?</p>
 								  </button>
 								</h2>
@@ -627,70 +631,160 @@
  </section>
 <!---------- F.A.Q end ------------->
 <!---------- portfolio start ------------->
- <section class="question mb-5">
+ <section class="portfolio mb-5" id="scrollspyHeading3">
 	  <div class="container">
 		   <div class="v-info text-center">
 			  <p class="h6 text-uppercase text-info">portfolio</p>
 			  <p class="h3 text-primary mb-5"><span class="text-capitalize">Check&nbsp</span>our latest work</p>
 		   </div>
 		   <div class="logo-list text-center mb-5">
-		     <a class="p-active text-capitalize text-decoration-none pt-1 pb-1 ps-4 pe-4 text-muted" href="#">all</a>
-			 <a class="port-border text-capitalize text-decoration-none pt-1 pb-1 ps-4 pe-4 text-muted" href="#">app</a>
-			 <a class="port-border text-capitalize text-decoration-none pt-1 pb-1 ps-4 pe-4 text-muted" href="#">card</a>
-			 <a class="port-border text-capitalize text-decoration-none pt-1 pb-1 ps-4 pe-4 text-muted" href="#">web</a>
+		     <a class="p-active text-capitalize text-decoration-none ps-3 pe-3 ms-1 me-1 text-muted" href="#">all</a>
+			 <a class="port-border text-capitalize text-decoration-none ps-3 pe-3 ms-1 text-muted" href="#">app</a>
+			 <a class="port-border text-capitalize text-decoration-none ps-3 pe-3 ms-1 text-muted" href="#">card</a>
+			 <a class="port-border text-capitalize text-decoration-none ps-3 pe-3 ms-1 me-1 text-muted" href="#">web</a>
 		   </div>
 		   <div class="row">
 			   <div class="col-4">
-				   <div class="port-img overflow-hidden mb-4">
+				   <div class="port-img overflow-hidden mb-4 position-relative">
 				      <img class="d-flex img-fluid" src="image/portfolio-1.jpg" alt="add-image">
+					  <div class="linear position-absolute">
+						  <div class="o-hidden position-absolute top-50 start-50 translate-middle text-center">
+							 <h4 class="o-content text-capitalize">app&nbsp1</h2>
+							 <p class="o-content text-uppercase">app</p>
+							 <button class="i-btn">
+								<a class="btn btn-primary rounded-circle ms-1 me-1" href="#"><i class="icofont-plus"></i></a>
+								<a class="btn btn-primary rounded-circle ms-1 me-1" href="#"><i class="icofont-link-alt"></i></a>
+							 </button>
+						  </div>
+					  </div>
 				   </div>
 			   </div>
 			   <div class="col-4">
-				   <div class="port-img overflow-hidden mb-4">
+				   <div class="port-img overflow-hidden mb-4 position-relative">
 				      <img class="d-flex img-fluid" src="image/portfolio-2.jpg" alt="add-image">
+					  <div class="linear position-absolute">
+						  <div class="o-hidden position-absolute top-50 start-50 translate-middle text-center">
+							 <h4 class="o-content text-capitalize">app&nbsp2</h2>
+							 <p class="o-content text-uppercase">app</p>
+							 <button class="i-btn">
+								<a class="btn btn-primary rounded-circle ms-1 me-1" href="#"><i class="icofont-plus"></i></a>
+								<a class="btn btn-primary rounded-circle ms-1 me-1" href="#"><i class="icofont-link-alt"></i></a>
+							 </button>
+						  </div>
+					  </div>
 				   </div>
 			   </div>
 			   <div class="col-4">
-			       <div class="port-img overflow-hidden mb-4">
+			       <div class="port-img overflow-hidden mb-4 position-relative">
 				      <img class="d-flex img-fluid" src="image/portfolio-3.jpg" alt="add-image">
+					  <div class="linear position-absolute">
+						  <div class="o-hidden position-absolute top-50 start-50 translate-middle text-center">
+							 <h4 class="o-content text-capitalize">app&nbsp3</h2>
+							 <p class="o-content text-uppercase">app</p>
+							 <button class="i-btn">
+								<a class="btn btn-primary rounded-circle ms-1 me-1" href="#"><i class="icofont-plus"></i></a>
+								<a class="btn btn-primary rounded-circle ms-1 me-1" href="#"><i class="icofont-link-alt"></i></a>
+							 </button>
+						  </div>
+					  </div>
 				   </div>
 			   </div>
 			   <div class="col-4">
-				   <div class="port-img overflow-hidden mb-4">
+				   <div class="port-img overflow-hidden mb-4 position-relative">
 				      <img class="d-flex img-fluid" src="image/portfolio-4.jpg" alt="add-image">
+					  <div class="linear position-absolute">
+						  <div class="o-hidden position-absolute top-50 start-50 translate-middle text-center">
+							 <h4 class="o-content text-capitalize">card&nbsp1</h2>
+							 <p class="o-content text-uppercase">card</p>
+							 <button class="i-btn">
+								<a class="btn btn-primary rounded-circle ms-1 me-1" href="#"><i class="icofont-plus"></i></a>
+								<a class="btn btn-primary rounded-circle ms-1 me-1" href="#"><i class="icofont-link-alt"></i></a>
+							 </button>
+						  </div>
+					  </div>
 				   </div>
 			   </div>
 			   <div class="col-4">
-			       <div class="port-img overflow-hidden mb-4">
+			       <div class="port-img overflow-hidden mb-4 position-relative">
 				      <img class="d-flex img-fluid" src="image/portfolio-5.jpg" alt="add-image">
+					  <div class="linear position-absolute">
+						  <div class="o-hidden position-absolute top-50 start-50 translate-middle text-center">
+							 <h4 class="o-content text-capitalize">card&nbsp2</h2>
+							 <p class="o-content text-uppercase">card</p>
+							 <button class="i-btn">
+								<a class="btn btn-primary rounded-circle ms-1 me-1" href="#"><i class="icofont-plus"></i></a>
+								<a class="btn btn-primary rounded-circle ms-1 me-1" href="#"><i class="icofont-link-alt"></i></a>
+							 </button>
+						  </div>
+					  </div>
 				   </div>
 			   </div>
 			   <div class="col-4">
-			       <div class="port-img overflow-hidden mb-4">
+			       <div class="port-img overflow-hidden mb-4 position-relative">
 				      <img class="d-flex img-fluid" src="image/portfolio-6.jpg" alt="add-image">
+					  <div class="linear position-absolute">
+						  <div class="o-hidden position-absolute top-50 start-50 translate-middle text-center">
+							 <h4 class="o-content text-capitalize">card&nbsp3</h2>
+							 <p class="o-content text-uppercase">card</p>
+							 <button class="i-btn">
+								<a class="btn btn-primary rounded-circle ms-1 me-1" href="#"><i class="icofont-plus"></i></a>
+								<a class="btn btn-primary rounded-circle ms-1 me-1" href="#"><i class="icofont-link-alt"></i></a>
+							 </button>
+						  </div>
+					  </div>
 				   </div>
 			   </div>
 			   <div class="col-4">
-			       <div class="port-img overflow-hidden mb-4">
+			       <div class="port-img overflow-hidden mb-4 position-relative">
 				      <img class="d-flex img-fluid" src="image/portfolio-7.jpg" alt="add-image">
+					  <div class="linear position-absolute">
+						  <div class="o-hidden position-absolute top-50 start-50 translate-middle text-center">
+							 <h4 class="o-content text-capitalize">web&nbsp1</h2>
+							 <p class="o-content text-uppercase">web</p>
+							 <button class="i-btn">
+								<a class="btn btn-primary rounded-circle ms-1 me-1" href="#"><i class="icofont-plus"></i></a>
+								<a class="btn btn-primary rounded-circle ms-1 me-1" href="#"><i class="icofont-link-alt"></i></a>
+							 </button>
+						  </div>
+					  </div>
 				   </div>
 			   </div>
 			   <div class="col-4">
-			       <div class="port-img overflow-hidden mb-4">
+			       <div class="port-img overflow-hidden mb-4 position-relative">
 				      <img class="d-flex img-fluid" src="image/portfolio-8.jpg" alt="add-image">
+					  <div class="linear position-absolute">
+						  <div class="o-hidden position-absolute top-50 start-50 translate-middle text-center">
+							 <h4 class="o-content text-capitalize">web&nbsp2</h2>
+							 <p class="o-content text-uppercase">web</p>
+							 <button class="i-btn">
+								<a class="btn btn-primary rounded-circle ms-1 me-1" href="#"><i class="icofont-plus"></i></a>
+								<a class="btn btn-primary rounded-circle ms-1 me-1" href="#"><i class="icofont-link-alt"></i></a>
+							 </button>
+						  </div>
+					  </div>
 				   </div>
 			   </div>
 			   <div class="col-4">
-			       <div class="port-img overflow-hidden mb-4">
+			       <div class="port-img overflow-hidden mb-4 position-relative">
 				      <img class="d-flex img-fluid" src="image/portfolio-9.jpg" alt="add-image">
+					  <div class="linear position-absolute">
+						  <div class="o-hidden position-absolute top-50 start-50 translate-middle text-center">
+							 <h4 class="o-content text-capitalize">web&nbsp3</h2>
+							 <p class="o-content text-uppercase">web</p>
+							 <button class="i-btn">
+								<a class="btn btn-primary rounded-circle ms-1 me-1" href="#"><i class="icofont-plus"></i></a>
+								<a class="btn btn-primary rounded-circle ms-1 me-1" href="#"><i class="icofont-link-alt"></i></a>
+							 </button>
+						  </div>
+					  </div>
 				   </div>
 			   </div>
 		   </div>
 	  </div>
  </section>
 <!---------- portfolio end ------------->
-<!---------- experat start ------------->
- <section class="question mb-5">
+<!---------- expert start ------------->
+ <section class="expert mb-5">
 	  <div class="container">
 		   <div class="v-info text-center">
 			  <p class="h6 text-uppercase text-info">testimonials</p>
@@ -699,6 +793,18 @@
 	  </div>
  </section>
 <!---------- expert end ------------->
+<!---------- team start ------------->
+ <section class="team mb-5" id="scrollspyHeading4">
+	  <div class="container">
+		   <div class="v-info text-center">
+			  <p class="h6 text-uppercase text-info">team</p>
+			  <p class="h3 text-primary mb-4"><span class="text-capitalize">Our&nbsp</span>hard working team</p>
+		   </div>
+	  </div>
+ </section>
+<!---------- team end ------------->
+<script src="js/jquery.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
