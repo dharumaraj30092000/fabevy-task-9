@@ -12,9 +12,9 @@
  </head>
 <body data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
 <!---------- header start ------------->
-  <section class="header">
+  <section class="header position-fixed index w-100 bg-white">
 	   <div class="container">
-			 <div class="row align-items-center position-fixed index">
+			 <div class="row align-items-center">
 				 <div class="col-2">
 					   <nav class="navbar navbar-expand-lg">
 							<img class="img-fluid" src="image/logo.png" alt="logo-name">
@@ -26,27 +26,27 @@
 				 <div class="col-8">
 					  <nav class="navbar navbar-expand-lg ms-5">
 							<div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
-								  <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
+								  <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center" id="navbar-example2">
 										<li class="nav-item nav-link ms-2">
-										  <a class="active text-capitalize text-decoration-none" href="index.html" aria-current="page" href="#">home</a>
+										  <a class="text-capitalize text-decoration-none" href="index.html" aria-current="page" href="#">home</a>
 										</li>
-										<li class="nav-item ms-2">
-										  <a class="nav-link text-capitalize" href="#scrollspyHeading1">about</a>
+										<li class="nav-item nav-link ms-2">
+										  <a class="text-capitalize" href="#scrollspyHeading1">about</a>
 										</li>
-										<li class="nav-item ms-2">
-										  <a class="nav-link text-capitalize" href="#scrollspyHeading2">services</a>
+										<li class="nav-item nav-link ms-2">
+										  <a class="text-capitalize" href="#scrollspyHeading2">services</a>
 										</li>
-										<li class="nav-item ms-2">
-										  <a class="nav-link text-capitalize" href="#scrollspyHeading3">portfolio</a>
+										<li class="nav-item nav-link ms-2">
+										  <a class="text-capitalize" href="#scrollspyHeading3">portfolio</a>
 										</li>
-										<li class="nav-item ms-2">
-										  <a class="nav-link text-capitalize" href="#scrollspyHeading4">team</a>
+										<li class="nav-item nav-link ms-2">
+										  <a class="text-capitalize" href="#scrollspyHeading4">team</a>
 										</li>
-										<li class="nav-item ms-2">
-										  <a class="nav-link text-capitalize" href="#">blog</a>
+										<li class="nav-item nav-link ms-2">
+										  <a class="text-capitalize" href="#">blog</a>
 										</li>
-										<li class="nav-item ms-2 dropdown-item-1">
-										  <a class="nav-link text-capitalize" href="#">dropdown<span class="arrow ps-2 pt-5"><i class="icofont-curved-down"></i></span></a>
+										<li class="nav-item nav-link ms-2 dropdown-item-1">
+										  <a class="text-capitalize" href="#">dropdown<span class="arrow ps-2 pt-5"><i class="icofont-curved-down"></i></span></a>
 										  <ul class="dropdown-item-2 ps-0 rounded-2">
 											   <li class="d-block"><a class="nav-link text-capitalize">dropdown<span class="ps-2">1</span></a>
 											   <li class="d-block deep"><a class="nav-link text-capitalize">deep dropdown<span class="arrow ps-2 pt-5"><i class="icofont-curved-right"></i></span></a>
@@ -63,8 +63,8 @@
 											   </li>
 										  </ul>
 										</li>
-										<li class="nav-item ms-2">
-										  <a class="nav-link text-capitalize">contact</a>
+										<li class="nav-item nav-link ms-2">
+										  <a class="text-capitalize">contact</a>
 										</li>
 								  </ul>
 							</div>
@@ -78,7 +78,7 @@
   </section>
 <!---------- header end ------------->
 <!---------- banner start ------------->
-   <section class="banner mb-5">
+   <section class="banner">
 		 <div class="container">
 			   <div class="row align-items-center">
 					 <div class="col-6">
@@ -100,7 +100,7 @@
    </section>
 <!---------- banner end ------------->
 <!---------- group start------------->
- <section class="grp-dis mb-5 ps-4" id="scrollspyHeading1">
+ <section class="grp-dis mb-5 ps-4 pb-4" id="scrollspyHeading1">
 	  <div class="container">
 			<div class="row align-items-center">
 				  <div class="col-6 discuss pt-1">
@@ -127,11 +127,11 @@
 	  <div class="container">
 			<div class="v-info text-center">
 			  <p class="h6 text-uppercase text-info">our values</p>
-			  <p class="h3 text-primary pb-3"><span class="text-capitalize">odit&nbsp </span>est perspiciatis laborum et dicta</p>
+			  <p class="h1 text-primary pb-3"><span class="text-capitalize">odit&nbsp </span>est perspiciatis laborum et dicta</p>
 			</div>
 			<div class="row">
 			  <div class="col-4">
-				 <div class="card p-3" style="width: 20rem;">
+				 <div class="card c-zoom p-3" style="width: 20rem;">
 					<img class="img-fluid" src="image/values-1.png" class="card-img-top" alt="people-activites">
 					   <div class="card-body text-center pb-2">
 						  <h5 class="card-title text-primary"><span class="text-capitalize">ad&nbsp </span>cupiditate sed est odio</h5>
@@ -140,7 +140,7 @@
 				</div>
 			  </div>
 			  <div class="col-4">
-				 <div class="card p-3" style="width: 20rem;">
+				 <div class="card c-zoom p-3" style="width: 20rem;">
 					<img class="img-fluid" src="image/values-2.png" class="card-img-top" alt="people-activites">
 					   <div class="card-body text-center">
 						  <h5 class="card-title text-primary"><span class="text-capitalize">voluptatem&nbsp </span>voluptatum alias</h5>
@@ -149,7 +149,7 @@
 				</div>
 			  </div>
 			  <div class="col-4">
-				 <div class="card p-3" style="width: 20rem;">
+				 <div class="card c-zoom p-3" style="width: 20rem;">
 					<img class="img-fluid" src="image/values-3.png" class="card-img-top" alt="people-activites">
 					   <div class="card-body text-center">
 						 <h5 class="card-title text-primary"><span class="text-capitalize">fugit&nbsp </span>cupiditate alias nobis</h5>
@@ -210,7 +210,7 @@
 	  <div class="container">
 			<div class="v-info text-center">
 			   <p class="h6 text-uppercase text-info">features</p>
-			   <p class="h3 text-primary pb-4"><span class="text-capitalize">laboriosam&nbsp </span>est perspiciatis laborum et dicta</p>
+			   <p class="h1 text-primary pb-4"><span class="text-capitalize">laboriosam&nbsp </span>est perspiciatis laborum et dicta</p>
 			</div>
 			<div class="row">
 				 <div class="col-6">
@@ -377,78 +377,90 @@
 	  <div class="container">
 			<div class="v-info text-center">
 			  <p class="h6 text-uppercase text-info">services</p>
-			  <p class="h3 text-primary pb-4"><span class="text-capitalize">Veritatis&nbsp </span>et dolores facere numquam et praesentium</p>
+			  <p class="h1 text-primary pb-4"><span class="text-capitalize">Veritatis&nbsp </span>et dolores facere numquam et praesentium</p>
 			</div>
 		<div class="row">
 			 <div class="col-4">
-				  <div class="ser-cnt-1 bg-white text-center rounded mb-4">
-					   <div class="ser-list-1 pt-5 ps-5 pe-5">
-						 <a class="d-block text-decoration-none fs-1 mt-2 mb-5" href="#"><i class="icofont-twitch p-4"></i></a>
-						 <h3 class="text-capitalize">Nesciunt Mete</h3>
-						 <p><span class="text-capitalize">Provident&nbsp </span>nihil minus qui consequatur non omnis maiores.<span class="text-capitalize">Eos&nbsp </span>accusantium minus dolores iure perferendis tempore et consequatur.</p>
-					   </div>
-					   <div class="ser-arrow-1 mt-2 mb-5">
-						 <a class="text-capitalize text-decoration-none fs-5" href="#">read more<i class="icofont-long-arrow-right"></i></a>
-					   </div>
-				  </div>
-			 </div>
-			 <div class="col-4">
-				  <div class="ser-cnt-2 bg-white text-center rounded mb-4">
-					   <div class="ser-list-2 pt-5 ps-5 pe-5">
-						 <a class="d-block text-decoration-none fs-1 mt-2 mb-5" href="#"><i class="icofont-twitch p-4"></i></a>
-						 <h3 class="text-capitalize">Eosle Commodi</h3>
-						 <p><span class="text-capitalize">Ut&nbsp </span>autem aut autem non a.<span class="text-capitalize">Sint&nbsp </span>sint sit facilis nam iusto sint.<span class="text-capitalize">Libero&nbsp </span>corrupti neque eum hic non ut nesciunt dolorem.</p>
-					   </div>
-					   <div class="ser-arrow-2 mt-2 mb-5">
-						 <a class="text-capitalize text-decoration-none fs-5" href="#">read more<i class="icofont-long-arrow-right"></i></a>
+				  <div class="ser-cnt-1 ser-hover bg-white text-center rounded mb-4">
+				       <div class="equal-height pb-4">
+						   <div class="ser-list-1 pt-4 ps-2 pe-2">
+							 <i class="icofont-twitch d-inline-block text-decoration-none fs-1 p-4 mb-4"></i>
+							 <h3 class="text-capitalize">Nesciunt Mete</h3>
+							 <p><span class="text-capitalize">Provident&nbsp </span>nihil minus qui consequatur non omnis maiores.<span class="text-capitalize">Eos&nbsp </span>accusantium minus dolores iure perferendis tempore et consequatur.</p>
+						   </div>
+						   <div class="ser-arrow mt-1 mb-4">
+							 <a class="text-capitalize text-decoration-none fs-5" href="#">read more<i class="icofont-long-arrow-right"></i></a>
+						   </div>
 					   </div>
 				  </div>
 			 </div>
 			 <div class="col-4">
-				  <div class="ser-cnt-3 bg-white text-center rounded mb-4">
-					   <div class="ser-list-3 pt-5 ps-5 pe-5">
-						 <a class="d-block text-decoration-none fs-1 mt-2 mb-5" href="#"><i class="icofont-twitch p-4"></i></a>
-						 <h3 class="text-capitalize">Ledo Markt</h3>
-						 <p><span class="text-capitalize">ut&nbsp </span>excepturi voluptatem nisi sed.<span class="text-capitalize">Quidem&nbsp </span> fuga consequatur.<span class="text-capitalize">Minus&nbsp </span>ea aut.<span class="text-capitalize">Vel&nbsp </span>qui id voluptas adipisci eos earum corrupti.</p>
-					   </div>
-					   <div class="ser-arrow-3 mt-2 mb-5">
-						 <a class="text-capitalize text-decoration-none fs-5" href="#">read more<i class="icofont-long-arrow-right"></i></a>
-					   </div>
-				  </div>
-			 </div>
-			 <div class="col-4">
-				  <div class="ser-cnt-4 bg-white text-center rounded mb-4">
-					   <div class="ser-list-4 pt-5 ps-5 pe-5">
-						 <a class="d-block text-decoration-none fs-1 mt-2 mb-5" href="#"><i class="icofont-twitch p-4"></i></a>
-						 <h3 class="text-capitalize">Asperiores Commodi</h3>
-						 <p><span class="text-capitalize">Non&nbsp </span>et temporibus minus omnis sed dolor esse consequatur.<span class="text-capitalize">Cupiditate&nbsp </span>sed error ea fuga sit provident adipisci neque.</p>
-					   </div>
-					   <div class="ser-arrow-4 mt-2 mb-5">
-						 <a class="text-capitalize text-decoration-none fs-5" href="#">read more<i class="icofont-long-arrow-right"></i></a>
+				  <div class="ser-cnt-2 ser-hover bg-white text-center rounded">
+				       <div class="equal-height pb-4">
+						   <div class="ser-list-2 pt-4 ps-2 pe-2">
+							 <i class="icofont-twitch d-inline-block text-decoration-none fs-1 p-4 mb-4"></i>
+							 <h3 class="text-capitalize">Eosle Commodi</h3>
+							 <p><span class="text-capitalize">Ut&nbsp </span>autem aut autem non a.<span class="text-capitalize">Sint&nbsp </span>sint sit facilis nam iusto sint.<span class="text-capitalize">Libero&nbsp </span>corrupti neque eum hic non ut nesciunt dolorem.</p>
+						   </div>
+						   <div class="ser-arrow mt-1 mb-4">
+							 <a class="text-capitalize text-decoration-none fs-5" href="#">read more<i class="icofont-long-arrow-right"></i></a>
+						   </div>
 					   </div>
 				  </div>
 			 </div>
 			 <div class="col-4">
-				  <div class="ser-cnt-5 bg-white text-center rounded mb-4">
-					   <div class="ser-list-5 pt-5 ps-5 pe-5">
-						 <a class="d-block text-decoration-none fs-1 mt-2 mb-5" href="#"><i class="icofont-twitch p-4"></i></a>
-						 <h3 class="text-capitalize">Velit Doloremque</h3>
-						 <p><span class="text-capitalize">Cumque&nbsp </span>et suscipit saepe.<span class="text-capitalize">Est&nbsp </span>maiores autem enim facilis ut aut ipsam corporis aut.<span class="text-capitalize">Sed&nbsp </span>animi at autem alias eius labore.</p>
-					   </div>
-					   <div class="ser-arrow-5 mt-2 mb-5">
-						 <a class="text-capitalize text-decoration-none fs-5" href="#">read more<i class="icofont-long-arrow-right"></i></a>
+				  <div class="ser-cnt-3 ser-hover bg-white text-center rounded">
+				       <div class="equal-height pb-4">
+						   <div class="ser-list-3 pt-4 ps-2 pe-2">
+							 <i class="icofont-twitch d-inline-block text-decoration-none fs-1 p-4 mb-4"></i>
+							 <h3 class="text-capitalize">Ledo Markt</h3>
+							 <p><span class="text-capitalize">ut&nbsp </span>excepturi voluptatem nisi sed.<span class="text-capitalize">Quidem&nbsp </span> fuga consequatur.<span class="text-capitalize">Minus&nbsp </span>ea aut.<span class="text-capitalize">Vel&nbsp </span>qui id voluptas adipisci eos earum corrupti.</p>
+						   </div>
+						   <div class="ser-arrow mt-1 mb-4">
+							 <a class="text-capitalize text-decoration-none fs-5" href="#">read more<i class="icofont-long-arrow-right"></i></a>
+						   </div>
 					   </div>
 				  </div>
 			 </div>
 			 <div class="col-4">
-				  <div class="ser-cnt-6 bg-white text-center rounded mb-4">
-					   <div class="ser-list-6 pt-5 ps-5 pe-5">
-						 <a class="d-block text-decoration-none fs-1 mt-2 mb-5" href="#"><i class="icofont-twitch p-4"></i></a>
-						 <h3 class="text-capitalize">Dolori Architecto</h3>
-						 <p><span class="text-capitalize">Hic&nbsp </span>molestias ea quibusdam eos.<span class="text-capitalize">Fugiat&nbsp </span>enim doloremque aut neque non et debitis iure.<span class="text-capitalize">Corrupti&nbsp </span>recusandae ducimus enim.</p>
+				  <div class="ser-cnt-4 ser-hover bg-white text-center rounded mb-4">
+				       <div class="equal-height pb-4">
+						   <div class="ser-list-4 pt-4 ps-2 pe-2">
+							 <i class="icofont-twitch d-inline-block text-decoration-none fs-1 p-4 mb-4"></i>
+							 <h3 class="text-capitalize">Asperiores Commodi</h3>
+							 <p><span class="text-capitalize">Non&nbsp </span>et temporibus minus omnis sed dolor esse consequatur.<span class="text-capitalize">Cupiditate&nbsp </span>sed error ea fuga sit provident adipisci neque.</p>
+						   </div>
+						   <div class="ser-arrow mt-1 mb-4">
+							 <a class="text-capitalize text-decoration-none fs-5" href="#">read more<i class="icofont-long-arrow-right"></i></a>
+						   </div>
 					   </div>
-					   <div class="ser-arrow-6 mt-2 mb-5">
-						 <a class="text-capitalize text-decoration-none fs-5" href="#">read more<i class="icofont-long-arrow-right"></i></a>
+				  </div>
+			 </div>
+			 <div class="col-4">
+				  <div class="ser-cnt-5 ser-hover bg-white text-center rounded mb-4">
+				       <div class="equal-height pb-4">
+						   <div class="ser-list-5 pt-4 ps-2 pe-2">
+							 <i class="icofont-twitch d-inline-block text-decoration-none fs-1 p-4 mb-4"></i>
+							 <h3 class="text-capitalize">Velit Doloremque</h3>
+							 <p><span class="text-capitalize">Cumque&nbsp </span>et suscipit saepe.<span class="text-capitalize">Est&nbsp </span>maiores autem enim facilis ut aut ipsam corporis aut.<span class="text-capitalize">Sed&nbsp </span>animi at autem alias eius labore.</p>
+						   </div>
+						   <div class="ser-arrow mt-1 mb-4">
+							 <a class="text-capitalize text-decoration-none fs-5" href="#">read more<i class="icofont-long-arrow-right"></i></a>
+						   </div>
+					   </div>
+				  </div>
+			 </div>
+			 <div class="col-4">
+				  <div class="ser-cnt-6 ser-hover bg-white text-center rounded mb-4">
+				       <div class="equal-height pb-4">
+						   <div class="ser-list-6 pt-4 ps-2 pe-2">
+							 <i class="icofont-twitch d-inline-block text-decoration-none fs-1 p-4 mb-4"></i>
+							 <h3 class="text-capitalize">Dolori Architecto</h3>
+							 <p><span class="text-capitalize">Hic&nbsp </span>molestias ea quibusdam eos.<span class="text-capitalize">Fugiat&nbsp </span>enim doloremque aut neque non et debitis iure.<span class="text-capitalize">Corrupti&nbsp </span>recusandae ducimus enim.</p>
+						   </div>
+						   <div class="ser-arrow mt-1 mb-4">
+							 <a class="text-capitalize text-decoration-none fs-5" href="#">read more<i class="icofont-long-arrow-right"></i></a>
+						   </div>
 					   </div>
 				  </div>
 			 </div>
@@ -461,28 +473,28 @@
 	  <div class="container">
 		   <div class="v-info text-center">
 			  <p class="h6 text-uppercase text-info">pricing</p>
-			  <p class="h3 text-primary pb-4"><span class="text-capitalize">Check&nbsp </span>our&nbsp <span class="text-capitalize">Pricing</span></p>
+			  <p class="h1 text-primary pb-4"><span class="text-capitalize">Check&nbsp </span>our&nbsp <span class="text-capitalize">Pricing</span></p>
 		   </div>
 		<div class="row">
 			 <div class="col-3">
-				  <div class="price-list-1 bg-white rounded-1 text-center p-4 equal-height">
+				  <div class="price-list-1 price-list bg-white rounded-1 text-center p-4 equal-height">
 					   <h5 class="text-capitalize pb-3">Free Plan</h5>
 					   <h6 class="fs-3"><sup>$&nbsp</sup><span class="fs-1">0</span><sub class="month">&nbsp/mo</sub></h6>
 					   <div class="p-img p-4">
 						 <img class="img-fluid pb-4" src="image/pricing-free.png" alt="scooty">
 					   </div>
-					   <p class="text-muted pb-2"><span class="text-capitalize">Aida&nbsp</span>dere</p>
-					   <p class="text-muted pb-2"><span class="text-capitalize">Nec&nbsp</span>feugiat nisl</p>
-					   <p class="text-muted pb-2"><span class="text-capitalize">Nulla&nbsp</span>at volutpat dola</p>
-					   <p class="text-black-50 text-decoration-line-through pb-2"><span class="text-capitalize">Pharetra&nbsp</span>massa</p>
-					   <p class="text-black-50 text-decoration-line-through pb-2"><span class="text-capitalize">Massa&nbsp</span>ultricies mi</p>
-					   <div class="price-btn text-center mt-3 mb-3">
+					   <p class="text-muted"><span class="text-capitalize">Aida&nbsp</span>dere</p>
+					   <p class="text-muted"><span class="text-capitalize">Nec&nbsp</span>feugiat nisl</p>
+					   <p class="text-muted"><span class="text-capitalize">Nulla&nbsp</span>at volutpat dola</p>
+					   <p class="text-black-50 text-decoration-line-through"><span class="text-capitalize">Pharetra&nbsp</span>massa</p>
+					   <p class="text-black-50 text-decoration-line-through"><span class="text-capitalize">Massa&nbsp</span>ultricies mi</p>
+					   <div class="price-btn text-center mt-4 mb-3">
 						 <button class="text-capitalize ps-4 pe-4 pt-1 pb-1 rounded-pill fs-5">buy now</button>
 					   </div>
 				  </div>
 			 </div>
 		 <div class="col-3">
-			  <div class="price-list-2 bg-white rounded-1 text-center p-4 position-relative overflow-hidden equal-height">
+			  <div class="price-list-2 price-list bg-white rounded-1 text-center p-4 position-relative overflow-hidden equal-height">
 				   <h5 class="text-capitalize pb-3">Starter Plan</h5>
 				   <div class="cross position-absolute">
 					<p class="text-capitalize bg-primary text-white ps-5 pe-5">featured</p>
@@ -491,46 +503,46 @@
 				   <div class="p-img p-4">
 					 <img class="img-fluid pb-4" src="image/pricing-starter.png" alt="scooty">
 				   </div>
-				   <p class="text-muted pb-2"><span class="text-capitalize">Aida&nbsp</span>dere</p>
-				   <p class="text-muted pb-2"><span class="text-capitalize">Nec&nbsp</span>feugiat nisl</p>
-				   <p class="text-muted pb-2"><span class="text-capitalize">Nulla&nbsp</span>at volutpat dola</p>
-				   <p class="text-muted pb-2"><span class="text-capitalize">Pharetra&nbsp</span>massa</p>
-				   <p class="text-black-50 text-decoration-line-through pb-2"><span class="text-capitalize">Massa&nbsp</span>ultricies mi</p>
-				   <div class="price-btn text-center mt-3 mb-3">
+				   <p class="text-muted"><span class="text-capitalize">Aida&nbsp</span>dere</p>
+				   <p class="text-muted"><span class="text-capitalize">Nec&nbsp</span>feugiat nisl</p>
+				   <p class="text-muted"><span class="text-capitalize">Nulla&nbsp</span>at volutpat dola</p>
+				   <p class="text-muted"><span class="text-capitalize">Pharetra&nbsp</span>massa</p>
+				   <p class="text-black-50 text-decoration-line-through"><span class="text-capitalize">Massa&nbsp</span>ultricies mi</p>
+				   <div class="price-btn text-center mt-4 mb-3">
 					 <button class="text-capitalize ps-4 pe-4 pt-1 pb-1 rounded-pill fs-5">buy now</button>
 				   </div>
 			  </div>
 		 </div>
 		 <div class="col-3">
-			  <div class="price-list-3 bg-white rounded-1 text-center p-4 equal-height">
+			  <div class="price-list-3 price-list bg-white rounded-1 text-center p-4 equal-height">
 				   <h5 class="text-capitalize pb-3">Business Plan</h5>
 				   <h6 class="fs-3 pb-2"><sup>$&nbsp</sup><span class="fs-1">29</span><sub class="month">&nbsp/mo</sub></h6>
 				   <div class="p-img p-4">
 					 <img class="img-fluid pb-4" src="image/pricing-business.png" alt="scooty">
 				   </div>
-				   <p class="text-muted pb-2"><span class="text-capitalize">Aida&nbsp</span>dere</p>
-				   <p class="text-muted pb-2"><span class="text-capitalize">Nec&nbsp</span>feugiat nisl</p>
-				   <p class="text-muted pb-2"><span class="text-capitalize">Nulla&nbsp</span>at volutpat dola</p>
-				   <p class="text-muted pb-2"><span class="text-capitalize">Pharetra&nbsp</span>massa</p>
-				   <p class="text-muted pb-2"><span class="text-capitalize">Massa&nbsp</span>ultricies mi</p>
-				   <div class="price-btn text-center mt-3 mb-3">
+				   <p class="text-muted"><span class="text-capitalize">Aida&nbsp</span>dere</p>
+				   <p class="text-muted"><span class="text-capitalize">Nec&nbsp</span>feugiat nisl</p>
+				   <p class="text-muted"><span class="text-capitalize">Nulla&nbsp</span>at volutpat dola</p>
+				   <p class="text-muted"><span class="text-capitalize">Pharetra&nbsp</span>massa</p>
+				   <p class="text-muted"><span class="text-capitalize">Massa&nbsp</span>ultricies mi</p>
+				   <div class="price-btn text-center mt-4 mb-3">
 					 <button class="text-capitalize ps-4 pe-4 pt-1 pb-1 rounded-pill fs-5">buy now</button>
 				   </div>
 			  </div>
 		 </div>
 		 <div class="col-3">
-			  <div class="price-list-4 bg-white rounded-1 text-center p-4 equal-height">
+			  <div class="price-list-4 price-list bg-white rounded-1 text-center p-4 equal-height">
 				   <h5 class="text-capitalize pb-3">Ultimate Plan</h5>
 				   <h6 class="fs-3 pb-2"><sup>$&nbsp</sup><span class="fs-1">49</span><sub class="month">&nbsp/mo</sub></h6>
 				   <div class="p-img p-4">
 					 <img class="img-fluid pb-4" src="image/pricing-ultimate.png" alt="scooty">
 				   </div>
-				   <p class="text-muted pb-2"><span class="text-capitalize">Aida&nbsp</span>dere</p>
-				   <p class="text-muted pb-2"><span class="text-capitalize">Nec&nbsp</span>feugiat nisl</p>
-				   <p class="text-muted pb-2"><span class="text-capitalize">Nulla&nbsp</span>at volutpat dola</p>
-				   <p class="text-muted pb-2"><span class="text-capitalize">Pharetra&nbsp</span>massa</p>
-				   <p class="text-muted pb-2"><span class="text-capitalize">Massa&nbsp</span>ultricies mi</p>
-				   <div class="price-btn text-center mt-3 mb-3">
+				   <p class="text-muted"><span class="text-capitalize">Aida&nbsp</span>dere</p>
+				   <p class="text-muted"><span class="text-capitalize">Nec&nbsp</span>feugiat nisl</p>
+				   <p class="text-muted"><span class="text-capitalize">Nulla&nbsp</span>at volutpat dola</p>
+				   <p class="text-muted"><span class="text-capitalize">Pharetra&nbsp</span>massa</p>
+				   <p class="text-muted"><span class="text-capitalize">Massa&nbsp</span>ultricies mi</p>
+				   <div class="price-btn text-center mt-4 mb-3">
 					 <button class="text-capitalize ps-4 pe-4 pt-1 pb-1 rounded-pill fs-5">buy now</button>
 				   </div>
 			  </div>
@@ -544,7 +556,7 @@
 	  <div class="container">
 		   <div class="v-info text-center">
 			  <p class="h6 text-uppercase text-info">f.a.q</p>
-			  <p class="h3 text-primary pb-4"><span class="text-capitalize">Frequently Asked Questions</span></p>
+			  <p class="h1 text-primary pb-4"><span class="text-capitalize">Frequently Asked Questions</span></p>
 		   </div>
 		  <div class="row">
 			   <div class="col-6">
@@ -636,9 +648,9 @@
 	  <div class="container">
 		   <div class="v-info text-center">
 			  <p class="h6 text-uppercase text-info">portfolio</p>
-			  <p class="h3 text-primary mb-5"><span class="text-capitalize">Check&nbsp</span>our latest work</p>
+			  <p class="h1 text-primary"><span class="text-capitalize">Check&nbsp</span>our latest work</p>
 		   </div>
-		   <div class="logo-list text-center mb-5">
+		   <div class="logo-list text-center">
 		     <a class="p-active text-capitalize text-decoration-none ps-3 pe-3 ms-1 me-1 text-muted" href="#">all</a>
 			 <a class="port-border text-capitalize text-decoration-none ps-3 pe-3 ms-1 text-muted" href="#">app</a>
 			 <a class="port-border text-capitalize text-decoration-none ps-3 pe-3 ms-1 text-muted" href="#">card</a>
@@ -789,10 +801,10 @@
 	  <div class="container">
 		   <div class="v-info text-center">
 			  <p class="h6 text-uppercase text-info">testimonials</p>
-			  <p class="h3 text-primary mb-4"><span class="text-capitalize">What&nbsp</span>they are saying about us</p>
+			  <p class="h1 text-primary mb-4"><span class="text-capitalize">What&nbsp</span>they are saying about us</p>
 		   </div>
 		   <div class="owl-carousel owl-theme">
-		     <div class="exp-cont rounded text-center pt-3 pb-3 mb-4 bg-white">
+		     <div class="exp-cont text-center p-4 mb-4 bg-white">
 				  <div class="exp-star fs-4 pb-2">
 					  <i class="icofont-star"></i>
 					  <i class="icofont-star"></i>
@@ -800,14 +812,14 @@
 					  <i class="icofont-star"></i>
 					  <i class="icofont-star"></i>
 				  </div>
-				  <p class="text-capitalize text-muted">Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</p>
-				  <div class="exp-img overflow-hidden rounded-circle-1 text-center m-auto">
-					 <img class="img-fluid" src="image/testimonials-1.jpg" alt="expert-image">
+				  <p class="text-capitalize text-muted"><i>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</i></p>
+				  <div class="exp-img overflow-hidden rounded-circle-1 text-center m-auto d-flex">
+					 <img class="img-fluid" src="image/testimonials-5.jpg" alt="expert-image">
 				  </div>
 				  <h4 class="text-capitalize text-black pt-3 m-0">John Larson</h4>
 				  <p class="fs-5 text-muted m-0">Entrepreneur</p>
 			 </div>
-		     <div class="exp-cont rounded text-center pt-3 pb-3 mb-4 bg-white">
+		     <div class="exp-cont text-center p-4 mb-4 bg-white">
 				  <div class="exp-star fs-4 pb-2">
 					  <i class="icofont-star"></i>
 					  <i class="icofont-star"></i>
@@ -815,14 +827,14 @@
 					  <i class="icofont-star"></i>
 					  <i class="icofont-star"></i>
 				  </div>
-				  <p class="text-capitalize text-muted">Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</p>
-				  <div class="exp-img overflow-hidden rounded-circle-1 text-center m-auto">
+				  <p class="text-capitalize text-muted"><i>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</i></p>
+				  <div class="exp-img overflow-hidden rounded-circle-1 text-center m-auto d-flex">
 					 <img class="img-fluid" src="image/testimonials-1.jpg" alt="expert-image">
 				  </div>
-				  <h4 class="text-capitalize text-black pt-3 m-0">John Larson</h4>
-				  <p class="fs-5 text-muted m-0">Entrepreneur</p>
+				  <h4 class="text-capitalize text-black pt-3 m-0">Saul Goodman</h4>
+				  <p class="fs-5 text-muted m-0">Ceo & Founder</p>
 			 </div>
-			 <div class="exp-cont rounded text-center pt-3 pb-3 mb-4 bg-white">
+			 <div class="exp-cont text-center p-4 mb-4 bg-white">
 				  <div class="exp-star fs-4 pb-2">
 					  <i class="icofont-star"></i>
 					  <i class="icofont-star"></i>
@@ -830,14 +842,14 @@
 					  <i class="icofont-star"></i>
 					  <i class="icofont-star"></i>
 				  </div>
-				  <p class="text-capitalize text-muted">Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</p>
-				  <div class="exp-img overflow-hidden rounded-circle-1 text-center m-auto">
-					 <img class="img-fluid" src="image/testimonials-1.jpg" alt="expert-image">
+				  <p class="text-capitalize text-muted"><i>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</i></p>
+				  <div class="exp-img overflow-hidden rounded-circle-1 text-center m-auto d-flex">
+					 <img class="img-fluid" src="image/testimonials-2.jpg" alt="expert-image">
 				  </div>
-				  <h4 class="text-capitalize text-black pt-3 m-0">John Larson</h4>
-				  <p class="fs-5 text-muted m-0">Entrepreneur</p>
+				  <h4 class="text-capitalize text-black pt-3 m-0">Sara Wilsson</h4>
+				  <p class="fs-5 text-muted m-0">Designer</p>
 			  </div>
-			  <div class="exp-cont rounded text-center pt-3 pb-3 mb-4 bg-white">
+			  <div class="exp-cont rounded text-center p-4 mb-4 bg-white">
 				  <div class="exp-star fs-4 pb-2">
 					  <i class="icofont-star"></i>
 					  <i class="icofont-star"></i>
@@ -845,14 +857,14 @@
 					  <i class="icofont-star"></i>
 					  <i class="icofont-star"></i>
 				  </div>
-				  <p class="text-capitalize text-muted">Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</p>
-				  <div class="exp-img overflow-hidden rounded-circle-1 text-center m-auto">
-					 <img class="img-fluid" src="image/testimonials-1.jpg" alt="expert-image">
+				  <p class="text-capitalize text-muted"><i>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</i></p>
+				  <div class="exp-img overflow-hidden rounded-circle-1 text-center m-auto d-flex">
+					 <img class="img-fluid" src="image/testimonials-4.jpg" alt="expert-image">
 				  </div>
-				  <h4 class="text-capitalize text-black pt-3 m-0">John Larson</h4>
-				  <p class="fs-5 text-muted m-0">Entrepreneur</p>
+				  <h4 class="text-capitalize text-black pt-3 m-0">Matt Brandon</h4>
+				  <p class="fs-5 text-muted m-0">Freelancer</p>
 			  </div>
-			  <div class="exp-cont rounded text-center pt-3 pb-3 mb-4 bg-white">
+			  <div class="exp-cont text-center p-4 mb-4 bg-white">
 				  <div class="exp-star fs-4 pb-2">
 					  <i class="icofont-star"></i>
 					  <i class="icofont-star"></i>
@@ -860,12 +872,12 @@
 					  <i class="icofont-star"></i>
 					  <i class="icofont-star"></i>
 				  </div>
-				  <p class="text-capitalize text-muted">Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</p>
-				  <div class="exp-img overflow-hidden rounded-circle-1 text-center m-auto">
-					 <img class="img-fluid" src="image/testimonials-1.jpg" alt="expert-image">
+				  <p class="text-capitalize text-muted"><i>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</i></p>
+				  <div class="exp-img overflow-hidden rounded-circle-1 text-center m-auto d-flex">
+					 <img class="img-fluid" src="image/testimonials-3.jpg" alt="expert-image">
 				  </div>
-				  <h4 class="text-capitalize text-black pt-3 m-0">John Larson</h4>
-				  <p class="fs-5 text-muted m-0">Entrepreneur</p>
+				  <h4 class="text-capitalize text-black pt-3 m-0">Jena Karlis</h4>
+				  <p class="fs-5 text-muted m-0">Store Owner</p>
 			  </div>
 		   </div>
 	  </div>
@@ -876,11 +888,121 @@
 	  <div class="container">
 		   <div class="v-info text-center">
 			  <p class="h6 text-uppercase text-info">team</p>
-			  <p class="h3 text-primary mb-4"><span class="text-capitalize">Our&nbsp</span>hard working team</p>
+			  <p class="h1 text-primary mb-4"><span class="text-capitalize">Our&nbsp</span>hard working team</p>
+		   </div>
+		   <div class="row">
+			   <div class="col-3">
+			       <div class="t-hover bg-white equal-height">
+					   <div class="t-img position-relative overflow-hidden">
+					      <img class="img-fluid pb-3" src="image/team-1.jpg" alt="team-image">
+					   </div>
+					   <div class="t-cont text-center p-1">
+						   <h4 class="text-capitalize text-primary">Walter White</h4>
+						   <h5 class="text-capitalize t-h5">Chief Executive Officer</h5>
+						   <p class="text-muted pb-3"><span class="text-capitalize"><i>Velit&nbsp</span>aut quia fugit et et.<span class="text-capitalize">Dolorum&nbsp</span>ea voluptate vel tempore tenetur ipsa quae aut.<span class="text-capitalize">Ipsum&nbsp</span>exercitationem iure minima enim corporis et voluptate.</i></p>
+					   </div>
+					   <div class="t-id position-absolute b-color pt-2 pb-1">
+						   <a class="text-decoration-none d-block fs-5 mt-1 mb-1" href="#"><i class="icofont-twitter"></i></a>
+						   <a class="text-decoration-none d-block fs-5 mt-1 mb-1" href="#"><i class="icofont-facebook"></i></a>
+						   <a class="text-decoration-none d-block fs-5 mt-1 mb-1" href="#"><i class="icofont-instagram"></i></a>
+						   <a class="text-decoration-none d-block fs-5 mt-1 mb-1" href="#"><i class="icofont-linkedin"></i></a>
+					   </div>
+				   </div>
+			   </div>
+			   <div class="col-3">
+			      <div class="t-hover bg-white equal-height">
+					   <div class="t-img position-relative overflow-hidden">
+					      <img class="img-fluid pb-3" src="image/team-2.jpg" alt="team-image">
+					   </div>
+					   <div class="t-cont text-center p-1">
+						   <h4 class="text-capitalize text-primary">Sarah Jhonson</h4>
+						   <h5 class="text-capitalize t-h5">Product Manager</h5>
+						   <p class="text-muted pb-3"><span class="text-capitalize"><i>Quo&nbsp</span> esse repellendus quia id.<span class="text-capitalize">Est&nbsp</span>eum et accusantium pariatur fugit nihil minima suscipit corporis.<span class="text-capitalize">Voluptate&nbsp</span>sed quas reiciendis animi neque sapiente.</i></p>
+					   </div>
+					   <div class="t-id position-absolute b-color pt-2 pb-1">
+						   <a class="text-decoration-none d-block fs-5 mt-1 mb-1" href="#"><i class="icofont-twitter"></i></a>
+						   <a class="text-decoration-none d-block fs-5 mt-1 mb-1" href="#"><i class="icofont-facebook"></i></a>
+						   <a class="text-decoration-none d-block fs-5 mt-1 mb-1" href="#"><i class="icofont-instagram"></i></a>
+						   <a class="text-decoration-none d-block fs-5 mt-1 mb-1" href="#"><i class="icofont-linkedin"></i></a>
+					   </div>
+				   </div>
+			   </div>
+			   <div class="col-3">
+			      <div class="t-hover bg-white equal-height">
+					   <div class="t-img position-relative overflow-hidden">
+					      <img class="img-fluid pb-3" src="image/team-3.jpg" alt="team-image">
+					   </div>
+					   <div class="t-cont text-center p-1">
+						   <h4 class="text-capitalize text-primary">William Anderson</h4>
+						   <h5 class="text-uppercase t-h5">CTO</h5>
+						   <p class="text-muted pb-3"><span class="text-capitalize"><i>Vero&nbsp</span>omnis enim consequatur.<span class="text-capitalize">Voluptas&nbsp</span>consectetur unde qui molestiae deserunt.<span class="text-capitalize">Voluptates&nbsp</span>enim aut architecto porro aspernatur molestiae modi.</i></p>
+					   </div>
+					   <div class="t-id position-absolute b-color pt-2 pb-1">
+						   <a class="text-decoration-none d-block fs-5 mt-1 mb-1" href="#"><i class="icofont-twitter"></i></a>
+						   <a class="text-decoration-none d-block fs-5 mt-1 mb-1" href="#"><i class="icofont-facebook"></i></a>
+						   <a class="text-decoration-none d-block fs-5 mt-1 mb-1" href="#"><i class="icofont-instagram"></i></a>
+						   <a class="text-decoration-none d-block fs-5 mt-1 mb-1" href="#"><i class="icofont-linkedin"></i></a>
+					   </div>
+				   </div>
+			   </div>
+			   <div class="col-3">
+			      <div class="t-hover bg-white equal-height">
+					   <div class="t-img position-relative overflow-hidden">
+					      <img class="img-fluid pb-3" src="image/team-4.jpg" alt="team-image">
+					   </div>
+					   <div class="t-cont text-center p-1">
+						   <h4 class="text-capitalize text-primary">Amanda Jepson</h4>
+						   <h5 class="text-capitalize t-h5">Accountant</h5>
+						   <p class="text-muted pb-3"><span class="text-capitalize"><i>Rerum&nbsp</span>voluptate non adipisci animi distinctio et deserunt amet voluptas.<span class="text-capitalize">Quia&nbsp</span> aut aliquid doloremque ut possimus ipsum officia.</i></p>
+					   </div>
+					   <div class="t-id position-absolute b-color pt-2 pb-1">
+						   <a class="text-decoration-none d-block fs-5 mt-1 mb-1" href="#"><i class="icofont-twitter"></i></a>
+						   <a class="text-decoration-none d-block fs-5 mt-1 mb-1" href="#"><i class="icofont-facebook"></i></a>
+						   <a class="text-decoration-none d-block fs-5 mt-1 mb-1" href="#"><i class="icofont-instagram"></i></a>
+						   <a class="text-decoration-none d-block fs-5 mt-1 mb-1" href="#"><i class="icofont-linkedin"></i></a>
+					   </div>
+				   </div>
+			   </div>
 		   </div>
 	  </div>
  </section>
 <!---------- team end ------------->
+<!---------- offers start ------------->
+ <section class="offers mb-5">
+	 <div class="container">
+		 <div class="v-info text-center">
+			  <p class="h6 text-uppercase text-info">our cilent</p>
+			  <p class="h1 text-primary mb-4"><span class="text-capitalize">Temporibus&nbsp</span>omnis officia</p>
+		 </div>
+		 <div class="com-logo owl-carousel owl-theme">
+			 <div class="off-com">
+				<img class="img-fluid fs-6" src="image/client-1.png" alt="company-logos">
+			 </div>
+			 <div class="off-com">
+				<img class="img-fluid fs-6" src="image/client-2.png" alt="company-logos">
+			 </div>
+			 <div class="off-com">
+				<img class="img-fluid fs-6" src="image/client-3.png" alt="company-logos">
+			 </div>
+			 <div class="off-com">
+				<img class="img-fluid fs-6" src="image/client-4.png" alt="company-logos">
+			 </div>
+			 <div class="off-com">
+				<img class="img-fluid fs-6" src="image/client-5.png" alt="company-logos">
+			 </div>
+			 <div class="off-com">
+				<img class="img-fluid fs-6" src="image/client-6.png" alt="company-logos">
+			 </div>
+			 <div class="off-com">
+				<img class="img-fluid fs-6" src="image/client-7.png" alt="company-logos">
+			 </div>
+			 <div class="off-com">
+				<img class="img-fluid fs-6" src="image/client-8.png" alt="company-logos">
+			 </div>
+		 </div>
+	 </div>
+ </section>
+<!---------- offers end ------------->
 <script src="js/jquery.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
@@ -893,7 +1015,7 @@
         URLhashListener:true,
         autoplayHoverPause:true,
 		autoplay:true,
-        autoplayTimeout:2000,
+        autoplayTimeout:5000,
         startPosition: 'URLHash'
     });
 </script>
