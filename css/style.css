@@ -111,7 +111,7 @@
 }
 /*--------- card ----------*/
 .card {
-	height: 100%;
+	min-height: 100%;
 	min-width: 100%;
 	box-shadow: 0px 0px 8px -1px #ccc;
 	border: none !important;
@@ -363,10 +363,11 @@
 .equal-height {
 	height: 100%;
 }
-.feat-btn button:hover {
+.price-btn button:hover {
 	background: #4154f1;
 	color: white;
 }
+/*--------- f.a.q ----------*/
 .accordion-item {
 	border: none !important;
 	border-bottom: 1px solid #ccc !important;
@@ -409,7 +410,7 @@
 	opacity: 1;
 	visibility: visible;
 	transform: scale(1);
-	transition: all 0.9s ease;
+	transition: all 0.8s ease;
 }
 .linear:after {
 	content:"";
@@ -419,7 +420,6 @@
 	border-top: 3px solid #ad9b9b8c;
 	border-left: 3px solid #ad9b9b8c;
 	padding: 23px;
-	transition: all 0.7s ease;
 }
 .linear:before {
 	content:"";
@@ -429,13 +429,6 @@
 	border-bottom: 3px solid #ad9b9b8c;
 	border-right: 3px solid #ad9b9b8c;
 	padding: 23px;
-	transition: all 0.7s ease;
-}
-.port-img:hover .linear .linear:before {
-	transition: all 0.7s ease;
-}
-.port-img:hover .linear .linear:after {
-	transition: all 0.7s ease;
 }
 .o-content {
 	color: #012970;
@@ -455,4 +448,12 @@
 	background: none !important;
 	border: none;
 }
-/*--------- testimonials ---------*/
+/*--------- expert ---------*/
+.exp-star {
+	color: #ffc107;
+}
+.rounded-circle-1 {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
