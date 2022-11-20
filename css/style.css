@@ -29,7 +29,7 @@
 	top: 40%;
 	left: 0%;
 	min-width: 170px;
-	height: 210px;
+	height: 220px;
 	font-size: 20px;
 	background: white;
 	opacity: 0;
@@ -48,7 +48,7 @@
 	top: 30%;
 	left: -83%;
 	min-width: 170px;
-	height: 160px;
+	height: 170px;
 	font-size: 20px;
 	background: white;
 	opacity: 0;
@@ -506,4 +506,49 @@
 }
 .com-logo {
 	margin-top: 50px;
+}
+.owl-theme .owl-dots .owl-dot span {
+	background: white !important;
+	border: 1px solid #4154f1 !important;
+}
+/*-------- blogs --------*/
+.b-img-cont a {
+	color: blue;
+}
+.b-radius {
+	border-radius: 10px;
+}
+
+.blog-content:hover .blog-img {
+	transform: rotate(5deg) scale(1.1);
+	transition: all 0.4s ease;
+}
+.blog-img {
+	transition: all 0.4s ease;
+}
+.blog-content:hover .b-img-cont p {
+	color: #0d6efd !important;
+}
+/*------- contact --------*/
+.c-location i {
+	color: blue;
+}
+.c-call i {
+	color: blue;
+}
+.c-mail i {
+	color: blue;
+}
+.c-time i {
+	color: blue;
+}
+.c-color {
+	background: #fafbff;
+	margin-bottom: 25px;
+}
+.f-color {
+	background: #fafbff !important;
+}
+.f-b-back {
+	background: #4154f1;
 }
