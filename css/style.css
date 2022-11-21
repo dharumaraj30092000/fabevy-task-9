@@ -317,7 +317,7 @@
 	color: #f51f9c;
 }
 .cross.position-absolute {
-	right: -17%;
+	right: -16%;
 	top: 3%;
 	transform: rotate(50deg);
 }
@@ -529,6 +529,9 @@
 .blog-content:hover .b-img-cont p {
 	color: #0d6efd !important;
 }
+.blog-content:hover .b-img-cont a {
+	color: #717ff5 !important;
+}
 /*------- contact --------*/
 .c-location i {
 	color: blue;
@@ -551,4 +554,34 @@
 }
 .f-b-back {
 	background: #4154f1;
+}
+/*------- subscribe -------*/
+.sub-btn {
+	background: white !important;
+	border: 1px solid #e1ecff;
+	width: 50%;
+	border-radius: 5px;
+}
+.search {
+	border: none;
+	width: 100%;
+}
+/*------- footer --------*/
+.map {
+	width: 100%;
+	opacity: 0.5;
+}
+/*------- footer-bottom --------*/
+.boot-color {
+	color: blue;
+}
+.boot-color:hover {
+	color: #bdbdfd;
+}
+/*------- corner-arrow --------*/
+.c-arrow {
+	position: fixed;
+	bottom: 2%;
+	right: 2%;
+	z-index: 2;
 }
