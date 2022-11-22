@@ -37,6 +37,9 @@
 	box-shadow: 0px 0px 17px -1px #ccc;
 	transition: all 0.6s ease;
 }
+.dropdown-item-2 li {
+	list-style: none;
+}
 .dropdown-item-1:hover .dropdown-item-2 {
 	opacity: 1;
 	visibility: visible;
@@ -55,6 +58,9 @@
 	visibility: hidden;
 	box-shadow: 0px 0px 17px -1px #ccc;
 	transition: all 0.6s ease;
+}
+.dropdown-item-3 li {
+	list-style: none;
 }
 .deep:hover .dropdown-item-3 {
 	opacity: 1;
@@ -158,24 +164,50 @@
 .fut-list {
 	color: #494993;
 }
-.coll-border {
-	border-bottom: 1px solid #ccc;
-}
-.coll-list {
+.nav-hover {
 	position: relative;
 	color: #494993;
 }
-.coll-list:before {
+.nav-hover.active {
+    color: blue !important;
+}
+.nav-hover.active:before {
 	content:"";
 	width: 100%;
-	height: 12%;
+	height: 10%;
 	position: absolute;
-	bottom: -3%;
+	bottom: -8%;
 	left: 0%;
 	background: blue;
+	opacity: 0;
+}
+.nav-hover:before {
+	content:"";
+	width: 100%;
+	height: 10%;
+	position: absolute;
+	bottom: -8%;
+	left: 0%;
+	background: blue;
+	opacity: 0;
+}
+.nav-item:hover .nav-hover:before {
+	opacity: 1;
+}
+.nav-item:hover .nav-hover {
+	color: blue !important;
+}
+.nav-item:hover .nav-hover.active {
+	color: #494993 !important;
+}
+.nav-item:hover .nav-hover.active:before {
+	opacity: 1;
 }
 .check {
 	color: #0245bc;
+}
+.nav-border {
+	border-bottom: 1px solid #ccc;
 }
 /*--------- services ---------*/
 .ser-cnt-1 {
@@ -321,8 +353,11 @@
 	top: 3%;
 	transform: rotate(50deg);
 }
+button {
+	border: none !important;
+}
 .rounded-pill {
-	border-color: #4154f1;
+	border: 1px solid #4154f1 !important;
 	background: none;
 	color: #4154f1;
 }
@@ -333,7 +368,6 @@
 	height: 100%;
 }
 .price-btn button:hover {
-	border-color: #4154f1;
 	background: #4154f1;
 	color: white;
 }
@@ -342,8 +376,12 @@
 	border: none !important;
 	border-bottom: 1px solid #ccc !important;
 }
+.accordion-button:focus {
+	box-shadow: none !important;
+	background: none !important;
+}
 .accordion {
-	border-color: none !important;
+	border: none !important;
 }
 /*--------- portfolio ---------*/
 .logo-list {
@@ -455,7 +493,7 @@
 	right: -5%;
 	opacity: 0;
 	visibility: hidden;
-	transition: all 0.5s ease;
+	transition: all 0.3s ease;
 }
 .t-id a i {
 	color: rgb(1 41 112 / 50%) !important;
@@ -467,7 +505,7 @@
 	opacity: 1;
 	visibility: visible;
 	transform: translateX(-43%);
-	transition: all 0.5s ease;
+	transition: all 0.3s ease-in;
 }
 .t-hover {
 	transform: scale(1);
@@ -475,7 +513,7 @@
 }
 .t-hover:hover {
 	transform: scale(1.1);
-	transition: all 0.6s ease;
+	transition: all 0.9s ease;
 }
 .t-img:after {
 	content: "";
@@ -510,21 +548,19 @@
 .owl-theme .owl-dots .owl-dot span {
 	background: white !important;
 	border: 1px solid #4154f1 !important;
+	padding: 5px;
 }
 /*-------- blogs --------*/
 .b-img-cont a {
 	color: blue;
 }
-.b-radius {
-	border-radius: 10px;
+.blog-img img {
+	transition: all 0.6s ease;
+	transform: scale(1);
 }
-
-.blog-content:hover .blog-img {
+.blog-content:hover .blog-img img {
 	transform: rotate(5deg) scale(1.1);
-	transition: all 0.4s ease;
-}
-.blog-img {
-	transition: all 0.4s ease;
+	transition: all 0.6s ease;
 }
 .blog-content:hover .b-img-cont p {
 	color: #0d6efd !important;
@@ -555,6 +591,13 @@
 .f-b-back {
 	background: #4154f1;
 }
+.form-control:focus {
+	box-shadow: none;
+	border-color: #4154f1 !important;
+}
+.form-control {
+	border-radius: 0 !important;
+}
 /*------- subscribe -------*/
 .sub-btn {
 	background: white !important;
@@ -567,16 +610,36 @@
 	width: 100%;
 }
 /*------- footer --------*/
-.map {
+.foot-top {
+	background-image: linear-gradient( rgb(251 250 250 / 63%),rgb(255 255 255 / 59%)),url(../image/footer-bg.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center;
+	background-size: cover;
 	width: 100%;
-	opacity: 0.5;
+	height: 100%;
+}
+.foot-icon a {
+	color: rgba(1, 41, 112, 0.5);
+}
+.foot-icon a:hover {
+	color: #012970;
+}
+.foot-cont a {
+	color: #444444;
+}
+.foot-cont a:hover {
+	color: blue;
+}
+.foot-cont li {
+	list-style: none;
 }
 /*------- footer-bottom --------*/
 .boot-color {
 	color: blue;
 }
 .boot-color:hover {
-	color: #bdbdfd;
+	color: #7575f7;
 }
 /*------- corner-arrow --------*/
 .c-arrow {
