@@ -71,6 +71,9 @@
 .btn {
 	background: #4154f1;
 }
+.nav-icon {
+	background: none;
+}
 /*--------- banner ----------*/
 .banner {
 	background-image: url(../image/hero-bg.png);
