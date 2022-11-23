@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Cabin:wght@600&family=Raleway:wght@500&display=swap');
 /*---------- header ----------*/
+.container {
+	padding: 0 !important;
+}
 .header {
 	top: 0;
 	left: 0;
@@ -121,9 +124,9 @@
 	margin: 80px 0 !important;
 }
 /*--------- card ----------*/
-.c-zoom {
-	min-height: 100%;
-	min-width: 100%;
+.card {
+	width: 100%;
+	height: 100%;
 	box-shadow: 0px 0px 8px -1px #ccc;
 	border: none !important;
 	overflow: hidden;
@@ -476,10 +479,10 @@ button {
 .exp-cont {
 	box-shadow: 0px 0px 12px -2px #ccc;
 }
-.owl-item {
+.owl-item .exp-cont{
 	opacity: 0.4;
 }
-.owl-item.center {
+.owl-item.center .exp-cont {
 	opacity: 1;
 }
 /*-------- team --------*/
@@ -538,12 +541,15 @@ button {
 }
 /*-------- offers --------*/
 .owl-carousel .owl-item .off-com img {
-	width: 50%;
+	width: 100%;
 	height: auto;
-	padding: 0 50px;
+	padding: 60px 60px 0 60px;
 }
-.owl-item.center .off-com {
-	opacity: 0.6;
+.owl-item .off-com img {
+	opacity: 0.5;
+}
+.owl-item .off-com:hover img {
+	opacity: 1;
 }
 .com-logo {
 	margin-top: 50px;
