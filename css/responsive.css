@@ -31,6 +31,30 @@
 .text-align-center {
 	text-align: center !important;
 }
+.grp-dis {
+	padding: 0 10px !important;
+}
+.ps-0{
+	padding: 0 !important;
+}
+.sub-btn {
+	width: 70% !important;
+}
+.t-img:after {
+	top: 37% !important;
+}
+.t-hover:hover .t-img:after {
+	top: 34.9% !important;
+}
+.t-hover:hover .t-id {
+	transform: translateX(-63%) !important;
+}
+.blog-content {
+	min-width: 720px;
+}
+.t-hover {
+	min-height: 567px !important;
+}
 }
 @media (min-width: 992px) and (max-width: 1200px) {}
 @media (min-width: 1200px) {}
