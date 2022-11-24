@@ -553,9 +553,12 @@ button {
 	margin-top: 50px;
 }
 .owl-theme .owl-dots .owl-dot span {
-	background: white !important;
+	background: none;
 	border: 1px solid #4154f1 !important;
 	padding: 5px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+	background: #4154f1 !important;
 }
 /*-------- blogs --------*/
 .blog-content {

@@ -26,13 +26,24 @@
 .t-hover:hover .t-id {
 	transform: translateX(-57%) !important;
 }
+.t-id {
+	padding: 10px 20px !important;
+}
+.t-id a i {
+	margin: 20px 0 !important;
+	font-size: 25px !important;
+}
 }
 @media (min-width: 576px) and (max-width: 992px){
 .text-align-center {
 	text-align: center !important;
 }
+/*------- cmn-sty-md -------*/
 .grp-dis {
 	padding: 0 10px !important;
+}
+.discuss {
+	padding-bottom: 30px !important;
 }
 .ps-0{
 	padding: 0 !important;
@@ -54,6 +65,13 @@
 }
 .t-hover {
 	min-height: 567px !important;
+}
+.t-id {
+	padding: 10px 18px !important;
+}
+.t-id a i {
+	margin: 15px 0 !important;
+	font-size: 20px !important;
 }
 }
 @media (min-width: 992px) and (max-width: 1200px) {}
