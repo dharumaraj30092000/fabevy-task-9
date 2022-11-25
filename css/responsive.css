@@ -21,7 +21,7 @@
 	top: 36% !important;
 }
 .t-hover:hover .t-img:after {
-	top: 34.6% !important;
+	top: 35.8% !important;
 }
 .t-hover:hover .t-id {
 	transform: translateX(-57%) !important;
@@ -32,6 +32,10 @@
 .t-id a i {
 	margin: 20px 0 !important;
 	font-size: 25px !important;
+}
+.cross.position-absolute {
+	right: -12% !important;
+	top: 3% !important;
 }
 }
 @media (min-width: 576px) and (max-width: 992px){
@@ -55,7 +59,7 @@
 	top: 37% !important;
 }
 .t-hover:hover .t-img:after {
-	top: 34.9% !important;
+	top: 36.3% !important;
 }
 .t-hover:hover .t-id {
 	transform: translateX(-63%) !important;
@@ -71,7 +75,11 @@
 }
 .t-id a i {
 	margin: 15px 0 !important;
-	font-size: 20px !important;
+	font-size: 25px !important;
+}
+.cross.position-absolute {
+	right: -12% !important;
+	top: 3% !important;
 }
 }
 @media (min-width: 992px) and (max-width: 1200px) {}

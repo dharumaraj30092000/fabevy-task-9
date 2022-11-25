@@ -392,6 +392,7 @@ button {
 	margin-bottom: 35px;
 }
 .port-border {
+	border: 1px solid transparent;
 	border-radius: 20px;
 }
 .port-border:hover {
@@ -534,7 +535,8 @@ button {
 	transition: all 0.9s ease;
 }
 .t-hover:hover .t-img:after {
-	top: 34%;
+	transform: translateY(-1.3%);
+	/*top: 33.8%;*/
 	transition: all 0.9s ease;
 }
 /*-------- offers --------*/
