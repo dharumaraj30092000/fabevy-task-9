@@ -3,6 +3,12 @@
 .container {
 	padding: 0 !important;
 }
+.nav-link {
+    color: #494993 !important;
+}
+.nav-link.active {
+    color: #4154f1 !important;
+}
 .header {
 	top: 0;
 	left: 0;
@@ -14,9 +20,7 @@
 	font-size: 31px !important;
 }
 .nav-link a {
-	color: #494993 !important;
 	font-size: 17px;
-	text-decoration: none;
 }
 .nav-link a:hover {
 	color: #4154f1 !important;
