@@ -220,6 +220,9 @@
 	border-bottom: 1px solid #ccc;
 }
 /*--------- services ---------*/
+.ser-hover {
+	min-height: 419px;
+}
 .ser-cnt-1 {
 	border-bottom: 3px solid #2db6fa;
 }
