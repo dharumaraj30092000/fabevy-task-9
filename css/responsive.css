@@ -82,5 +82,15 @@
 	top: 3% !important;
 }
 }
-@media (min-width: 992px) and (max-width: 1200px) {}
-@media (min-width: 1200px) {}
+@media (min-width: 992px) and (max-width: 1200px) {
+	/*-------cmn-sty-lg--------*/
+	.lg-btn {
+		padding: 3px !important;
+	}
+}
+@media (min-width: 1200px) {
+	/*--------cmn-sty-v-lg--------*/
+	.lg-btn {
+		padding: 3px !important;
+	}
+}
