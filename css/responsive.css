@@ -89,6 +89,9 @@
 	}
 }
 @media (min-width: 1200px) {
+	.container {
+		width: 1170px !important;
+	}
 	/*--------cmn-sty-v-lg--------*/
 	.lg-btn {
 		padding: 3px !important;
